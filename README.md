@@ -10,6 +10,7 @@ Browse any past edition by opening `<last_day>/newsletter.html`. Editions are da
 
 | Edition | Window | URL |
 |---|---|---|
+| #4 | May 28 – Jun 10, 2026 | <https://newsletter.getanyshift.com/2026-06-10/newsletter.html> |
 | #3 | May 13 – 27, 2026 | <https://newsletter.getanyshift.com/2026-05-27/newsletter.html> |
 | #2 | Apr 29 – May 13, 2026 | <https://newsletter.getanyshift.com/2026-05-13/newsletter.html> |
 | #1 | Apr 21–27, 2026 | <https://newsletter.getanyshift.com/2026-04-27/newsletter.html> |

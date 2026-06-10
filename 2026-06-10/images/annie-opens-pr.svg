@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="Annie reads the production graph and opens a pull request in each repository the fix touches">
+  <title>Annie opens a pull request in each repository the fix touches</title>
+  <rect x="0" y="0" width="600" height="200" fill="#F5F2EC"/>
+
+  <!-- Annie mark: navy rounded square with two cyan chevrons -->
+  <rect x="36" y="78" width="48" height="48" rx="11" fill="#1b2b41"/>
+  <polyline points="52,90 64,102 52,114" fill="none" stroke="#7ec8d8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="62,90 74,102 62,114" fill="none" stroke="#7ec8d8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- branchline from Annie with commit nodes -->
+  <path d="M84 102 H300" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <circle cx="140" cy="102" r="4" fill="#0A8F9E"/>
+  <circle cx="200" cy="102" r="4" fill="#0A8F9E"/>
+  <circle cx="260" cy="102" r="4" fill="#0A8F9E"/>
+
+  <!-- split to three repo PR cards -->
+  <path d="M300 102 C342 102 360 48 400 48" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <path d="M300 102 H400" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <path d="M300 102 C342 102 360 156 400 156" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <circle cx="300" cy="102" r="5" fill="#1b2b41"/>
+
+  <!-- PR card: checkout-api -->
+  <rect x="400" y="30" width="164" height="36" rx="8" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <circle cx="414" cy="48" r="4" fill="#0A8F9E"/>
+  <text x="426" y="53" font-family="DM Sans, Arial, sans-serif" font-size="13" fill="#1b2b41">checkout-api</text>
+  <rect x="508" y="38" width="48" height="18" rx="9" fill="#2d4c3e"/>
+  <text x="532" y="51" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#f5f1e8" text-anchor="middle" letter-spacing="0.5">PR</text>
+
+  <!-- PR card: orders-worker -->
+  <rect x="400" y="84" width="164" height="36" rx="8" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <circle cx="414" cy="102" r="4" fill="#0A8F9E"/>
+  <text x="426" y="107" font-family="DM Sans, Arial, sans-serif" font-size="13" fill="#1b2b41">orders-worker</text>
+  <rect x="508" y="92" width="48" height="18" rx="9" fill="#2d4c3e"/>
+  <text x="532" y="105" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#f5f1e8" text-anchor="middle" letter-spacing="0.5">PR</text>
+
+  <!-- PR card: db migrations -->
+  <rect x="400" y="138" width="164" height="36" rx="8" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <circle cx="414" cy="156" r="4" fill="#0A8F9E"/>
+  <text x="426" y="161" font-family="DM Sans, Arial, sans-serif" font-size="13" fill="#1b2b41">migrations</text>
+  <rect x="508" y="146" width="48" height="18" rx="9" fill="#2d4c3e"/>
+  <text x="532" y="159" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#f5f1e8" text-anchor="middle" letter-spacing="0.5">PR</text>
+</svg>
