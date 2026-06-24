@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="Annie Identity resolves one person's separate traces across GitHub, Slack, IAM, and PagerDuty into a single Person in the graph">
+  <title>Annie Identity resolves four scattered traces into one person</title>
+  <rect x="0" y="0" width="600" height="200" fill="#F5F2EC"/>
+
+  <!-- four source chips, scattered traces of the same human -->
+  <rect x="40" y="26" width="150" height="32" rx="8" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <circle cx="58" cy="42" r="4" fill="#0A8F9E"/>
+  <text x="72" y="47" font-family="DM Sans, Arial, sans-serif" font-size="13" fill="#1b2b41">GitHub login</text>
+
+  <rect x="40" y="66" width="150" height="32" rx="8" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <circle cx="58" cy="82" r="4" fill="#0A8F9E"/>
+  <text x="72" y="87" font-family="DM Sans, Arial, sans-serif" font-size="13" fill="#1b2b41">Slack user</text>
+
+  <rect x="40" y="106" width="150" height="32" rx="8" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <circle cx="58" cy="122" r="4" fill="#0A8F9E"/>
+  <text x="72" y="127" font-family="DM Sans, Arial, sans-serif" font-size="13" fill="#1b2b41">IAM role session</text>
+
+  <rect x="40" y="146" width="150" height="32" rx="8" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <circle cx="58" cy="162" r="4" fill="#0A8F9E"/>
+  <text x="72" y="167" font-family="DM Sans, Arial, sans-serif" font-size="13" fill="#1b2b41">PagerDuty user</text>
+
+  <!-- converging lines into one person node -->
+  <path d="M190 42 C300 42 320 100 400 100" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <path d="M190 82 C300 82 330 100 400 100" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <path d="M190 122 C300 122 330 100 400 100" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <path d="M190 162 C300 162 320 100 400 100" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+
+  <!-- resolved single Person node -->
+  <circle cx="470" cy="100" r="52" fill="#1b2b41"/>
+  <circle cx="470" cy="84" r="14" fill="#7ec8d8"/>
+  <path d="M448 124 C448 104 492 104 492 124 Z" fill="#7ec8d8"/>
+  <text x="470" y="172" font-family="DM Sans, Arial, sans-serif" font-size="13" fill="#1b2b41" text-anchor="middle" letter-spacing="0.5">one Person</text>
+</svg>

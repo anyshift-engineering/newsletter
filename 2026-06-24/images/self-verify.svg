@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="Annie runs a second pass over her own root cause: it clears the recent deploy that never touched the failing path and confirms the real cause">
+  <title>Annie argues against her own root cause before showing it</title>
+  <rect x="0" y="0" width="600" height="200" fill="#F5F2EC"/>
+
+  <!-- Annie mark: navy rounded square with two cyan chevrons -->
+  <rect x="36" y="78" width="48" height="48" rx="11" fill="#1b2b41"/>
+  <polyline points="52,90 64,102 52,114" fill="none" stroke="#7ec8d8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="62,90 74,102 62,114" fill="none" stroke="#7ec8d8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- first pass arrow -->
+  <path d="M84 102 H150" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <text x="98" y="92" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#9C958E" letter-spacing="0.5">1st pass</text>
+
+  <!-- second-pass loop arc that re-reads the answer -->
+  <path d="M150 124 C150 168 250 168 250 124" fill="none" stroke="#1b2b41" stroke-width="2" stroke-dasharray="4 4"/>
+  <polyline points="246,132 250,124 256,131" fill="none" stroke="#1b2b41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="160" y="186" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#1b2b41" letter-spacing="0.5">2nd pass re-reads it</text>
+
+  <!-- cleared candidate: a recent deploy that never touched the failing path -->
+  <rect x="150" y="40" width="190" height="36" rx="8" fill="#f5f1e8" stroke="#9C958E" stroke-width="1.5"/>
+  <circle cx="168" cy="58" r="7" fill="#2d4c3e"/>
+  <polyline points="164,58 167,61 172,55" fill="none" stroke="#f5f1e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="184" y="55" font-family="DM Sans, Arial, sans-serif" font-size="12" fill="#9C958E">recent deploy</text>
+  <text x="184" y="69" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#2d4c3e">cleared, never touched it</text>
+
+  <!-- confirmed root cause -->
+  <rect x="150" y="86" width="190" height="36" rx="8" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <circle cx="168" cy="104" r="4" fill="#0A8F9E"/>
+  <text x="184" y="101" font-family="DM Sans, Arial, sans-serif" font-size="12" fill="#1b2b41">cache config change</text>
+  <text x="184" y="115" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#1b2b41">confirmed root cause</text>
+
+  <!-- verified answer node on the right -->
+  <path d="M340 104 H430" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <circle cx="490" cy="104" r="42" fill="#1b2b41"/>
+  <polyline points="470,104 484,118 512,86" fill="none" stroke="#7ec8d8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="490" y="170" font-family="DM Sans, Arial, sans-serif" font-size="12" fill="#1b2b41" text-anchor="middle" letter-spacing="0.5">verified</text>
+</svg>
