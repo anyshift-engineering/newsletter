@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="Agents and pipelines call the Graph API and get a typed AskResult back from the live production graph">
+  <title>Graph API returns a typed AskResult from the live production graph</title>
+  <rect x="0" y="0" width="600" height="200" fill="#F5F2EC"/>
+
+  <!-- left: code / agent call -->
+  <rect x="28" y="36" width="200" height="128" fill="#1b2b41"/>
+  <circle cx="44" cy="52" r="4" fill="#e07a5f"/>
+  <circle cx="58" cy="52" r="4" fill="#d6c7b1"/>
+  <circle cx="72" cy="52" r="4" fill="#7ec8d8"/>
+  <text x="40" y="78" font-family="Fira Code, Menlo, monospace" font-size="11" fill="#7ec8d8">await gx.ask({</text>
+  <text x="52" y="96" font-family="Fira Code, Menlo, monospace" font-size="11" fill="#f5f1e8">intent: "deps"</text>
+  <text x="40" y="114" font-family="Fira Code, Menlo, monospace" font-size="11" fill="#7ec8d8">})</text>
+  <text x="40" y="142" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#9C958E" letter-spacing="0.5">agent / pipeline</text>
+
+  <!-- arrow -->
+  <path d="M240 100 H292" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <polyline points="284,94 292,100 284,106" fill="none" stroke="#0A8F9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="248" y="88" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#9C958E">Graph API</text>
+
+  <!-- center: edges first (under nodes), endpoints on circumference along center-to-center -->
+  <path d="M351.3 81.3 L378.1 108.1" fill="none" stroke="#0A8F9E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M334.5 85.0 L322.1 118.7" fill="none" stroke="#0A8F9E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M374.2 120.4 L329.8 128.0" fill="none" stroke="#0A8F9E" stroke-width="2" stroke-linecap="round"/>
+
+  <circle cx="340" cy="70" r="16" fill="#1b2b41"/>
+  <circle cx="388" cy="118" r="14" fill="#1b2b41"/>
+  <circle cx="318" cy="130" r="12" fill="#7ec8d8"/>
+  <text x="348" y="168" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#1b2b41" text-anchor="middle" letter-spacing="0.5">live graph</text>
+
+  <!-- right: typed result -->
+  <path d="M416 100 H458" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <polyline points="450,94 458,100 450,106" fill="none" stroke="#0A8F9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="470" y="52" width="108" height="96" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <rect x="470" y="52" width="108" height="22" fill="#1b2b41"/>
+  <text x="524" y="67" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#7ec8d8" text-anchor="middle" font-weight="700">AskResult</text>
+  <text x="484" y="96" font-family="Fira Code, Menlo, monospace" font-size="10" fill="#1b2b41">intent</text>
+  <text x="484" y="114" font-family="Fira Code, Menlo, monospace" font-size="10" fill="#0A8F9E">deps</text>
+  <text x="484" y="132" font-family="Fira Code, Menlo, monospace" font-size="10" fill="#1b2b41">payload</text>
+  <rect x="484" y="138" width="80" height="4" fill="#d6c7b1"/>
+</svg>
