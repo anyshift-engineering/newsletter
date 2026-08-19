@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="Connect Cloudflare so DNS, WAF, Workers, and Access join the production graph">
+  <title>Cloudflare edge joins the production graph</title>
+  <rect x="0" y="0" width="600" height="200" fill="#F5F2EC"/>
+
+  <rect x="28" y="28" width="280" height="144" fill="#1b2b41"/>
+  <circle cx="48" cy="48" r="4" fill="#e07a5f"/>
+  <circle cx="62" cy="48" r="4" fill="#d6c7b1"/>
+  <circle cx="76" cy="48" r="4" fill="#7ec8d8"/>
+  <text x="44" y="78" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#7ec8d8" font-weight="700">CLOUDFLARE</text>
+  <text x="44" y="100" font-family="Fira Code, Menlo, monospace" font-size="12" fill="#f5f1e8">app.example.com</text>
+  <text x="44" y="122" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#d6c7b1">DNS / WAF / Workers</text>
+  <text x="44" y="148" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#9C958E">tunnels / Access</text>
+
+  <path d="M324 100 H368" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <polyline points="360,94 368,100 360,106" fill="none" stroke="#0A8F9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="384" y="36" width="188" height="128" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <rect x="384" y="36" width="188" height="26" fill="#1b2b41"/>
+  <text x="478" y="54" font-family="DM Sans, Arial, sans-serif" font-size="12" fill="#7ec8d8" text-anchor="middle" font-weight="700">production graph</text>
+
+  <path d="M412 86 L448 86" fill="none" stroke="#0A8F9E" stroke-width="2.5" stroke-linecap="butt"/>
+  <path d="M412 86 L430 114" fill="none" stroke="#0A8F9E" stroke-width="2.5" stroke-linecap="butt"/>
+  <path d="M448 86 L430 114" fill="none" stroke="#0A8F9E" stroke-width="2.5" stroke-linecap="butt"/>
+  <circle cx="412" cy="86" r="8" fill="#1b2b41" stroke="#0A8F9E" stroke-width="1.5"/>
+  <circle cx="448" cy="86" r="8" fill="#1b2b41" stroke="#0A8F9E" stroke-width="1.5"/>
+  <circle cx="430" cy="114" r="7" fill="#7ec8d8" stroke="#0A8F9E" stroke-width="1.5"/>
+
+  <text x="478" y="92" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#1b2b41">checkout-api</text>
+  <text x="478" y="110" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#1b2b41">origin path</text>
+  <text x="478" y="128" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#0A8F9E">exposure beta</text>
+  <text x="478" y="150" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#9C958E" letter-spacing="0.5">same versioned graph</text>
+</svg>
