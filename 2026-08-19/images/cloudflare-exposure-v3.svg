@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="Connect Cloudflare so DNS, WAF, Workers, and Access join the production graph">
+  <title>Cloudflare edge joins the production graph</title>
+  <rect x="0" y="0" width="600" height="200" fill="#F5F2EC"/>
+
+  <rect x="24" y="32" width="200" height="136" fill="#1b2b41"/>
+  <text x="124" y="64" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#7ec8d8" text-anchor="middle" font-weight="700">CLOUDFLARE</text>
+  <text x="124" y="92" font-family="Fira Code, Menlo, monospace" font-size="13" fill="#f5f1e8" text-anchor="middle">app.example.com</text>
+  <text x="124" y="118" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#d6c7b1" text-anchor="middle">DNS / WAF / Workers</text>
+  <text x="124" y="142" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#9C958E" text-anchor="middle">tunnels / Access</text>
+
+  <path d="M240 100 H292" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <polyline points="284,94 292,100 284,106" fill="none" stroke="#0A8F9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="266" y="86" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#0A8F9E" text-anchor="middle" font-weight="700">exposure</text>
+
+  <rect x="308" y="56" width="80" height="88" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <text x="348" y="92" font-family="DM Sans, Arial, sans-serif" font-size="12" fill="#1b2b41" text-anchor="middle" font-weight="700">BETA</text>
+  <text x="348" y="114" font-family="DM Sans, Arial, sans-serif" font-size="10" fill="#0A8F9E" text-anchor="middle">to origin</text>
+
+  <path d="M404 100 H456" fill="none" stroke="#0A8F9E" stroke-width="2"/>
+  <polyline points="448,94 456,100 448,106" fill="none" stroke="#0A8F9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="472" y="32" width="104" height="136" fill="#f5f1e8" stroke="#1b2b41" stroke-width="1.5"/>
+  <rect x="472" y="32" width="104" height="26" fill="#1b2b41"/>
+  <text x="524" y="50" font-family="DM Sans, Arial, sans-serif" font-size="12" fill="#7ec8d8" text-anchor="middle" font-weight="700">origin</text>
+
+  <path d="M502 90 L546 90" fill="none" stroke="#0A8F9E" stroke-width="2.5" stroke-linecap="butt"/>
+  <path d="M502 90 L524 118" fill="none" stroke="#0A8F9E" stroke-width="2.5" stroke-linecap="butt"/>
+  <path d="M546 90 L524 118" fill="none" stroke="#0A8F9E" stroke-width="2.5" stroke-linecap="butt"/>
+  <circle cx="502" cy="90" r="8" fill="#1b2b41" stroke="#0A8F9E" stroke-width="1.5"/>
+  <circle cx="546" cy="90" r="8" fill="#1b2b41" stroke="#0A8F9E" stroke-width="1.5"/>
+  <circle cx="524" cy="118" r="7" fill="#7ec8d8" stroke="#0A8F9E" stroke-width="1.5"/>
+  <text x="524" y="148" font-family="DM Sans, Arial, sans-serif" font-size="11" fill="#1b2b41" text-anchor="middle">checkout-api</text>
+</svg>
