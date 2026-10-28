@@ -9,6 +9,8 @@ The public archive of the [Anyshift](https://anyshift.io) product newsletter. Ea
 Browse any past edition by opening `<last_day>/newsletter.html`. Editions are dated by the last day of the date window they cover.
 
 | Edition | Window | URL |
+| #12 | Oct 17 – 28, 2026 | <https://newsletter.getanyshift.com/2026-10-28/newsletter.html> |
+| #11 | Oct 6 – 16, 2026 | <https://newsletter.getanyshift.com/2026-10-16/newsletter.html> |
 | #10 | Sep 17 to Oct 5, 2026 | <https://newsletter.getanyshift.com/2026-10-05/newsletter.html> |
 |---|---|---|
 | #9 | Aug 19 – Sep 16, 2026 | <https://newsletter.getanyshift.com/2026-09-16/newsletter.html> |
